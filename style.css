@@ -6,27 +6,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Noto Serif JP", serif;
-  font-family: "Playfair Display", serif;
 }
 
 .page {
   height: 100vh;
   width: 100%;
-  background-image: url(./bg.jpg);
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.main-text {
-  text-align: center;
-  font-size: 120px;
-  line-height: 150px;
-  font-weight: bolder;
-  color: #f0f0f0;
-  background-color: #22222266;
-  /* text-shadow: 5px 5px 0 #000, -5px -5px 0 #000, -5px 5px 0 #000,
-    5px -5px 0 #000, 0px 5px 0 #000, 0 -5px 0 #000, -5px 0 0 #000, 5px 0 0 #000; */
-}
+/* .icon-circle {
+  border-radius: 50%;
+} */
