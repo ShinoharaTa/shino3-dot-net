@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Playfair+Display&display=swap"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
-    /> -->
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -26,14 +28,58 @@
   <body>
     <div class="page">
       <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <img src="./icon.jpg" class="img-fluid w-100" alt="" srcset="" />
+        <div class="profile-section">
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <img src="./icon.jpg" class="img-fluid profile-image" alt="Profile" />
+            </div>
+            <div class="col-md-8">
+              <h1 class="profile-name">Shino3（しのさん）</h1>
+              <h3 class="profile-name">Takuma Shinohara</h3>
+            </div>
           </div>
-          <div class="col-6">
-            <div class="fs-1">Shino3</div>
-            <div class="fs-3">しのさん</div>
+        </div>
+
+        <div class="content-section">
+          <h3 class="section-title">SNS</h3>
+          <div class="social-links">
+            <a href="https://bsky.app/profile/shino3.net" target="_blank"><i class="bi bi-bluesky"></i> Bluesky: @shino3.net</a>
+            <a href="https://nostx.io/npub1l60d6h2uvdwa9yq0r7r2suhgrnsadcst6nsx2j03xwhxhu2cjyascejxe5" target="_blank"><i class="bi bi-twitter"></i> Nostr: @shino3.net</a>
+            <a href="https://x.com/SHINOHARATTT" target="_blank"><i class="bi bi-twitter"></i> Twitter: @SHINOHARATTT</a>
+            <a href="https://www.instagram.com/shinoharattt/" target="_blank"><i class="bi bi-instagram"></i> Instagram: SHINOHARATTT</a>
+            <a href="https://www.threads.net/@shinoharattt" target="_blank"><i class="bi bi-threads"></i> Threads: @shinoharattt</a>
+            <a href="https://github.com/ShinoharaTa" target="_blank"><i class="bi bi-github"></i> GitHub: ShinoharaTa</a>
           </div>
+        </div>
+
+        <div class="content-section">
+          <h3 class="section-title">趣味</h3>
+          <ul>
+            <li>自動車競技 ダートトライアル ※Bライセンス</li>
+            <li>釣り（ワカサギ、バス、渓流）</li>
+            <li>個人開発・DIY</li>
+          </ul>
+          <h3 class="section-title">好きなもの</h3>
+          <ul>
+            <li>サーモン（トラウトサーモン、アトランティックサーモン</li>
+          </ul>
+        </div>
+
+        <div class="content-section">
+          <h3 class="section-title">仕事</h3>
+          <ul>
+            <li>WEBエンジニア？</li>
+            <li>フロント Vue、nuxt、Typescript）</li>
+            <li>バックエンド PHP、Laravel</li>
+            <li>趣味？</li>
+            <li>自宅インフラ Proxmox, Kubernetes</li>
+            <li>ネットワーク VPN</li>
+          </ul>
+        </div>
+
+        <div class="content-section">
+          <h3 class="section-title">登壇、個人開発</h3>
+          <p>ウェブ開発者として、主にフロントエンドの開発に携わっています。ユーザーインターフェースの設計から実装まで、一貫して担当し、最新の技術トレンドを取り入れながら、使いやすく魅力的なウェブサイトの構築を目指しています。</p>
         </div>
       </div>
     </div>
