@@ -46,6 +46,7 @@ body::before {
 }
 
 .profile-image {
+  max-width: 240px;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -63,6 +64,10 @@ body::before {
   font-weight: 500;
   font-size: 1.5rem;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.content-section > .section-title:first-child {
+  margin-top: 0;
 }
 
 .section-title {
@@ -171,8 +176,9 @@ body::before {
   .section-title {
     font-size: 1.25rem;
   }
-}
 
-/* .icon-circle {
-  border-radius: 50%;
-} */
+  .profile-image {
+    display: block;
+    margin: 0 auto;
+  }
+}
